@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>SOLDBI - About </title>
+    <title> </title>
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ramear Done">
+    <meta name="description" content="Landing page">
+    <meta name="keyword" content="Landing page, LANDING, PAGE">
+    <meta name="LANG" content="EN">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <header class="top-nav">
+      <div class="container-lg">
+        <div class="l-side">
+          <div class="logo"> SOLD<span style="color: #fffb00;">BI</span><br>
+          </div>
+          <div class="top-nav-menu">
+            <ul>
+              <li><a href="file:///Users/user/Desktop/MY%20EXCHANGE.html">&nbsp;⇆Exchange</a></li>
+              <li><a href="file:///Users/user/Desktop/withdraw/dist/Withdraw%20index.html">Withdraw</a></li>
+              <li><a href="file:///Users/user/Desktop/MY%20EXCHANGE.html">Track
+                  Crypto</a></li>
+              <li><a href="file:///Users/user/Desktop/MY%20EXCHANGE.html">Line
+                  Graph</a><br>
+              </li>
+              <li> <a href="#" class="ex">
+                  <p class="t-n-sbt ex"><br>
+                  </p>
+                  <p class="t-n-t"><br>
+                  </p>
+                </a> </li>
+              <li> <a href="#">
+                  <p class="t-n-t"><br>
+                  </p>
+                </a> </li>
+              <li> <a href="#">
+                  <p class="t-n-t"><br>
+                  </p>
+                </a> </li>
+              <li> <a href="#">
+                  <p class="t-n-t"><br>
+                  </p>
+                </a> </li>
+            </ul>
+          </div>
+          <div class="top-menu-single">
+            <ul>
+              <li> <a href="#"> About </a> </li>
+              <li> <a href="#"> Contact </a> </li>
+              <li> <a href="#"> Blog </a> </li>
+              <li> <span style="color: #848484;">Refund Policy</span></li>
+              <li> <a href="#"><span class="pro" style="margin-left: 3px;">Referral
+                    program</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="r-side">
+          <div class="top-nav-option">
+            <ul>
+              <li> <a href="#" onclick="pensearch()"> </a> <br>
+              </li>
+              <li> <a href="#"> </a> <br>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav-search" id="navSearch"> <input placeholder="Search for..."
+            name="searchpens"
+            type="text">
+          <span onclick="closesearch()"><i class="zmdi zmdi-close-circle-o"></i></span>
+        </div>
+      </div>
+    </header>
+    <!-- Top Pens -->
+    <section class="pens">
+      <div class="container-sm">
+        <div class="pens-cont">
+          <div class="pen-t">
+            <h3>About Soldbi</h3>
+          </div>
+          <div class="pens-pen">
+            <div class="pen"> <a href="#" class="pen-img"> <img src="https://freepngimg.com/download/money/48804-4-exchange-image-free-download-image.png">
+              </a>
+              <div class="pen-inf">
+                <h3> <a href="#"> Exchange </a> </h3>
+                <div class="detalis">
+                  <div class="l-detalis">
+                    <p> <a href="#"> Soldbi exchange has partnered with
+                        Changenow. Soldbi is one of the most trusted and
+                        successful exchanges. Soldbi supports 10000 coins and
+                        tokens including the popular ERC20. With the easy to use
+                        interface it makes it simple to exchange and trade
+                        crypto. As humans we encounter errors and incase of any
+                        errors Soldbi has a refund policy. Soldbi has ethics
+                        which include trust, respect, honesty and integrity. </a>
+                    </p>
+                  </div>
+                  <div class="r-detalis"> </div>
+                </div>
+              </div>
+            </div>
+            <div class="pen"> <a href="#" class="pen-img"> <img src="https://www.pngkey.com/png/detail/199-1994993_banks-group-gray-clip-art-at-clkercom-clipart.png">
+              </a>
+              <div class="pen-inf">
+                <h3> <a href="#"> Withdraw to bank account </a> </h3>
+                <div class="detalis">
+                  <div class="l-detalis">
+                    <p> <a href="#"> Soldbi withdraw is a feature that allows
+                        you to withdraw bitcoin from your wallet directly into
+                        your bank account, worldwide. Soldbi has the lowest fees
+                        per transaction. Soldbi doesn't ask for your private
+                        information and has a max of 24hours per transaction.
+                        Soldbi fees remain the same regardless of the amount of
+                        bitcoin you want to withdraw to your bank account. As
+                        humans we encounter errors and incase of any errors
+                        Soldbi has a refund policy. Soldbi has ethics which
+                        include trust, respect, honesty and integrity. </a> </p>
+                  </div>
+                  <div class="r-detalis"> </div>
+                </div>
+              </div>
+            </div>
+            <div class="pen"> <a href="#" class="pen-img"> <img src="https://www.cambridgemaths.org/Images/The-trouble-with-graphs.jpg">
+                </a> <div class="pen-inf">
+                <h3> <a href="#"> Responsive Graphs </a> </h3>
+                <div class="detalis">
+                  <div class="l-detalis">
+                    <p> <a href="#"> Soldbi has responsive graphs as a feature
+                        embedded in the website. These include live satellite
+                        graphs and line graphs. These graphs are accurate and
+                        reflect the blockchain accurately. These graphs can be
+                        used to assist you whilst trading within the Soldbi
+                        enviroment. Soldbi has ethics which include trust,
+                        respect, honesty and integrity. </a> </p>
+                  </div>
+                  <div class="r-detalis"> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Last Footer -->
+          <footer class="foot">
+            <div class="container-md">
+              <div class="f-left">
+                <ul>
+                  <li class="ft">
+                    <h3>SOLD<span style="color: #fffb00;">BI</span></h3>
+                  </li>
+                  <li> <a href="#"> Exchange </a> </li>
+                  <li> <a href="#"> Withdraw </a> </li>
+                  <li> <a href="#"> Track Crypto</a> </li>
+                  <li> <a href="#"> Line Graphs</a></li>
+                </ul>
+                <ul>
+                  <li class="ft">
+                    <h3>SOLD<span style="color: #fffb00;">BI</span></h3>
+                  </li>
+                  <li> <a href="#"> About</a> </li>
+                  <li> <a href="#"> Contact</a> </li>
+                  <li> <a href="#"> Blog </a> </li>
+                  <li> <a href="#"> Referral Program</a> </li>
+                  <li> <a href="#"> Refund Policy</a> </li>
+                </ul>
+                <ul>
+                  <li class="ft">
+                    <h3>Social</h3>
+                  </li>
+                  <li> <a href="#"> Twitter </a> </li>
+                  <li> <a href="#"> Facebook </a> </li>
+                  <li> <a href="#"> Flickr </a> </li>
+                  <li> <a href="#"> Instagram </a> </li>
+                </ul>
+              </div>
+              <div class="f-right">
+                <div class="f-copy">
+                  <div class="f-logo"> <a href="#">
+                      <p class="f-log">SOLD<span style="color: #fffb00;">BI</span></p>
+                      <p class="copy-year">©2018SOLD<span style="color: #fffb00;">BI</span></p>
+                      <p class="copy-year">The new level of currency</p>
+                    </a> </div>
+                  <p><br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <!-- partial -->
+          <script src="./script.js"></script> </div>
+      </div>
+    </section>
+  </body>
+</html>

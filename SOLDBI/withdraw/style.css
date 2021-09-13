@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&subset=latin-ext');
+*{
+	list-style: none;
+	text-decoration: none;
+	outline: none;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+}
+body {
+	background: #181818;
+	margin:0;
+	padding:0;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+}
+
+/*Container*/
+.container-sm{margin:0 auto;width:60%;}
+.container-md{margin:0 auto;width:70%;}
+.container-lg{margin:0 auto;width:99%;}
+/*Container*/
+
+
+/*top-nav*/
+header.top-nav {
+    background: #0f0f0f;
+    border-bottom: 1px solid #1e1e1e;
+    display: inline-block;
+    width: 100%;
+}
+
+.l-side {
+    display: flex;
+    float: left;
+}
+.logo {
+    margin-right: 20px;
+    display: inline-table;
+    margin: 22px 20px;
+    font-size: 24px;
+}
+.top-nav-menu ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.top-nav-menu ul li a {
+    z-index: 1;
+    display: inherit;
+    padding: 15px 0px;
+    border-bottom:3px solid transparent;
+    transition: .3s;
+}
+.top-nav-menu ul li a:hover{
+	border-bottom: 3px solid #363636;
+}
+.top-nav-menu ul li a.your:hover{border-color:#2196F3 !IMPORTANT;}
+.top-nav-menu ul li a.ex:hover{border-color: yellow !IMPORTANT;}
+
+.top-nav-menu ul li a p.t-n-sbt {
+    font-size: 14px;
+    margin: 0 0 3px 0;
+    font-weight: 700;
+}
+.top-nav-menu ul li a p.t-n-t {
+    font-weight: 700;
+    font-size: 18px;
+}
+p.t-n-sbt.your {color: #03A9F4;}
+p.t-n-sbt.ex {color: yellow;}
+
+.top-menu-single ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.top-menu-single ul li a {
+    display: inherit;
+    border-bottom: 2px solid transparent;
+    padding: 27px 10px;
+    color: #848484;
+    transition: .3s;
+}
+.top-menu-single ul li a:hover{color: #fff;}
+
+.top-menu-single ul li a span.pro {
+    padding: 2px 5px;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: 700;
+    margin: -7px 0 0 0px;
+    border: 1px solid #ffc107;
+    color: #ffc107;
+    text-transform: uppercase;
+}
+
+
+.r-side {
+    float: right;
+}
+.top-nav-option {
+    display: flex;
+}
+.top-nav-option ul li {
+    display: inline-block;
+    margin: 15px 5px;
+}
+.top-nav-option ul li a {
+    padding: 15px 10px;
+    font-size: 38px;    
+}
+.top-nav-option ul li a i {color: #848484;transition: .3s;}
+.top-nav-option ul li a i:hover{color: #fff;}
+
+.top-nav-option button.cre-pen {
+    background: #343436;
+    width: 150px;
+    font-size: 16px;
+    height: 45px;
+    border: 1px solid #343436;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s;
+    margin: 15px 20px;
+}
+.top-nav-option button.cre-pen:hover{border-color: #4d4d50;background: #4d4d50;}
+
+.nav-search {
+    background: #0f0f0f;
+    position: absolute;
+    width: 99%;
+    display: none;
+    height: 77px;
+    top: -80px;
+    transition: 3s;
+}
+.nav-search input {
+    padding: 0px 20px;
+    background: transparent;
+    border: 1px solid transparent;
+    width: 96%;
+    height: 100%;
+    font-size: 20px;
+}
+.nav-search span {
+    font-size: 28px;
+    cursor: pointer;
+    color: #848484;
+    transition:.3s;
+    margin:  0 0 0 -60px;
+}
+.nav-search span:hover{color: #fff;}
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/*basic reset*/
+* {margin: 0; padding: 0;}
+
+html {
+	height: 100%;
+	/*Image only BG fallback*/
+	
+
+}
+
+body {
+	font-family: montserrat, arial, verdana;
+}
+/*form styles*/
+#msform {
+	width: 400px;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+}
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	
+	/*stacking fieldsets above each other*/
+	position: relative;
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+#msform input, #msform textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}
+/*buttons*/
+#msform .action-button {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+/*headings*/
+.fs-title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+/*progressbar*/
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+}
+#progressbar li {
+	list-style-type: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 9px;
+	width: 33.33%;
+	float: left;
+	position: relative;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 10px;
+	color: #333;
+	background: white;
+	border-radius: 3px;
+	margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: white;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1; /*put it behind the numbers*/
+}
+#progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none; 
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before,  #progressbar li.active:after{
+	background: #27AE60;
+	color: white;
+}
+
+.styled-checkbox {
+  position: absolute; // take it out of document flow
+  opacity: 0; // hide it
+
+  & + label }
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  // Box.
+  & + label:before {
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    background: white;
+  }
+
+  // Box hover
+  &:hover + label:before {
+    background: #f35429;
+  }
+  
+  // Box focus
+  &:focus + label:before {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+  }
+
+  // Box checked
+  &:checked + label:before {
+    background: #f35429;
+  }
+  
+  // Disabled state label.
+  &:disabled + label {
+    color: #b8b8b8;
+    cursor: auto;
+  }
+
+  // Disabled box.
+  &:disabled + label:before {
+    box-shadow: none;
+    background: #ddd;
+  }
+
+  // Checkmark. Could be replaced with an image
+  &:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    box-shadow: 
+      2px 0 0 white,
+      4px 0 0 white,
+      4px -2px 0 white,
+      4px -4px 0 white,
+      4px -6px 0 white,
+      4px -8px 0 white;
+    transform: rotate(45deg);
+  }
+}
+
+// Demo-only styles
+// --------------
+
+html {
+  background: lightgray;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.unstyled {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin: 20px 0;
+}
+
+.centered {
+  width: 300px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  color: rgb(69, 113, 236);
+}
+
+
+
+
+
+
+
+
+
+
+/* First - Footer */
+footer.foot-boxes {
+    background: #28282b;
+    margin: 20px 0 0 0;
+    padding: 25px 0;
+}
+
+.fot-boxs {
+    display: flex;
+}
+.fot-boxs .box {
+    background: #242427;
+    padding: 20px;
+    margin: 0 10px;
+    width: 25%;
+    border-radius: 4px;
+}
+.box h3.box-t {
+    margin: 0 0 10px;
+}
+.box p {
+    margin: 0 0 10px 0;
+    color: #959595;
+}
+.box p a {
+    color: #2196F3;
+}
+.box img {
+    width: 100%;
+    height: 212px;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: .3s;
+    cursor: pointer;
+}
+.box img:hover{filter: opacity(50%);}
+.box p button {
+    display: block;
+    background: #343436;
+    border: 1px solid #343436;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #8e8e8e;
+    transition: .2s;
+}
+.box p button:hover{color: #fff !IMPORTANT;background: #4d4d50;border-color: #4d4d50;}
+.box p span {
+    color: #959595;
+    display: block;
+    margin: 8px 0;
+}
+
+
+
+
+/* Last - Footer */
+footer.foot {
+    background: #0f0f0f;
+    padding: 20px 0 70px 0;
+    display: inline-block;
+    width: 100%;
+}
+.f-left {
+    float: left;
+}
+.f-left ul {
+    margin: 10px 0;
+}
+.f-left ul li {
+    display: inline-block;
+}
+
+.f-left ul li h3 {
+    margin-right: 20px;
+    font-weight: 700;
+}
+.f-left ul li a {
+    margin: 0 5px;
+    transition: .3s;
+    color: #848484;
+}
+.f-left ul li a:hover{color: #fff;}
+.f-right {
+    float: right;
+}
+.f-copy .f-logo {
+    margin: 0 0 10px 0;
+}
+.f-logo a p.f-log {
+    font-size: 30px;
+    margin: 0 0 5px 0;
+}
+.f-logo a p.copy-year {
+    font-size: 13px;
+    color: #848484;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+	.top-nav-option ul, .f-right, footer.foot-boxes, .top-menu-single {
+    display: none;
+	}
+
+	.f-left {
+    width: 125%;
+	}
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .top-nav-menu
+    {
+    	display: none;
+    }
+    .container-sm {
+	    margin-left: 20px;
+	    width: 100%;
+	}
+	.pens-pen{display: block;}
+	.pen{width: 90%;}
+}

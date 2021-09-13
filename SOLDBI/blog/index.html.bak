@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>SOLDBI - Blog</title>
+    <title> </title>
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ramear Done">
+    <meta name="description" content="Landing page">
+    <meta name="keyword" content="Landing page, LANDING, PAGE">
+    <meta name="LANG" content="EN">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <header class="top-nav">
+      <div class="container-lg">
+        <div class="l-side">
+          <div class="logo"> <a href="#"> SOLD<span style="color: #fffb00;">BI</span></a>
+          </div>
+          <div class="top-nav-menu">
+            <ul>
+              <li><a href="file:///Users/user/Desktop/MY%20EXCHANGE.html">&nbsp;⇆Exchange</a></li>
+              <li><a href="file:///Users/user/Desktop/withdraw/dist/Withdraw%20index.html">Withdraw</a></li>
+              <li><a href="file:///Users/user/Desktop/MY%20EXCHANGE.html">Track
+                  Crypto</a></li>
+              <li><a href="file:///Users/user/Desktop/MY%20EXCHANGE.html">Line
+                  Graph</a><br>
+              </li>
+              <li> <a href="#" class="ex">
+                  <p class="t-n-sbt ex"><br>
+                  </p>
+                  <p class="t-n-t"><br>
+                  </p>
+                </a> </li>
+              <li> <a href="#">
+                  <p class="t-n-t"><br>
+                  </p>
+                </a> </li>
+              <li> <a href="#">
+                  <p class="t-n-t"><br>
+                  </p>
+                </a> </li>
+              <li> <a href="#">
+                  <p class="t-n-t"><br>
+                  </p>
+                </a> </li>
+            </ul>
+          </div>
+          <div class="top-menu-single">
+            <ul>
+              <li> <a href="#"> About </a> </li>
+              <li> <a href="#"> Contact</a></li>
+              <li> <a href="#"> Blog </a> </li>
+              <li> <a href="#"> Refund Policy</a></li>
+              <li>&nbsp;&nbsp;<a href="#"><span class="pro" style="margin-left: 3px;">referral
+                    policy</span> </a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="r-side">
+          <div class="top-nav-option">
+            <ul>
+              <li> <a href="#" onclick="pensearch()"> </a> <br>
+              </li>
+              <li> <a href="#"> </a> <br>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav-search" id="navSearch"> <input placeholder="Search for..."
+            name="searchpens"
+            type="text">
+          <span onclick="closesearch()"><i class="zmdi zmdi-close-circle-o"></i></span>
+        </div>
+      </div>
+    </header>
+    <!-- Top Pens -->
+    <section class="pens">
+      <div class="container-sm">
+        <div class="pens-cont">
+          <div class="pen-t">
+            <h3>SOLD<span style="color: #fffb00;">BI</span> Blog</h3>
+          </div>
+          <div class="pens-pen">
+            <div class="pen"> <a href="#" class="pen-img"> <img src="https://media.istockphoto.com/vectors/blockchain-bitcoin-icon-symbol-vector-vector-id882085928?k=20&amp;m=882085928&amp;s=612x612&amp;w=0&amp;h=KjVJuPadqOEQhviae5GqYPsIqMhXZDd0PcQ6390xQkU=">
+              </a>
+              <div class="pen-inf">
+                <h3> <a href="#"> Bitcoin 101 </a> </h3>
+                <div class="detalis">
+                  <div class="l-detalis">
+                    <p> <a href="#"> Bitcoin (BTC) was invented by a
+                        pseudonymous individual or group named Satoshi Nakamoto
+                        in 2008 and is the world’s first enduring cryptocurrency
+                        that succeeded where decades of digital cash experiments
+                        failed. Bitcoin’s monetary policy is enforced through a
+                        unique blend of software, cryptography and financial
+                        incentives rather than the whim of trusted third
+                        parties. The Bitcoin network is powered by a
+                        cryptographically secure, verifiable database called the
+                        blockchain — itself a technological phenomenon. The
+                        Bitcoin ecosystem consists of a global network of
+                        stakeholders, including the miners that secure the
+                        network and drive the issuance of the Bitcoin currency,
+                        the traders who speculate on this radically
+                        market-driven asset, and the builders working to onboard
+                        people to the cryptocurrency paradigm. At SOLDBI, we are
+                        chronicling the ongoing story of Bitcoin and the rise of
+                        a borderless, permissionless financial system. What has
+                        changed since Satoshi wrote the Bitcoin white paper? How
+                        is Bitcoin trading developing over the years, what are
+                        the best ways of investing in Bitcoin, and how do
+                        Bitcoin futures influence blockchain adoption? How will
+                        industry stakeholders work to make Bitcoin a mainstay in
+                        people’s lives, and will incumbent and legacy systems
+                        accept or fight this change?&nbsp; </a> </p>
+                  </div>
+                  <div class="r-detalis">
+                    <ul>
+                      <li> <a href="#"> <span>1223</span> <span><i class="zmdi zmdi-eye"></i></span>
+                        </a> </li>
+                      <li> <a href="#"> <span>3</span> <span><i class="zmdi zmdi-comment"></i></span>
+                        </a> </li>
+                      <li> <a href="#"> <span>105</span> <span><i class="zmdi zmdi-favorite"></i></span>
+                        </a> </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pen"> <a href="#" class="pen-img"> <img src="https://assets.gadgets360cdn.com/img/crypto/ethereum-og-logo.png">
+              </a>
+              <div class="pen-inf">
+                <h3> <a href="#"> Ethereum 101 </a> </h3>
+                <div class="detalis">
+                  <div class="l-detalis">
+                    <p> <a href="#"> Ethereum (ETH) launched in summer 2015
+                        with the aim of expanding the use cases of blockchain
+                        and cryptocurrency to encompass all manner of
+                        decentralized applications beyond Bitcoin’s initial
+                        scope, from permissionless financial services and
+                        crowdfunding to new organizational structures. Ethereum
+                        was envisioned as a “global computer” that would allow
+                        developers to publish and execute apps powered by smart
+                        contracts — programmable scripts that facilitate the
+                        flow of digital assets. Ethereum’s native
+                        cryptocurrency, Ether (ETH), not only provides an
+                        incentive structure similar to Bitcoin (BTC) in securing
+                        and maintaining the network but is also used as “gas” to
+                        run transactions through smart contracts. This functions
+                        as a security measure to protect the network from
+                        inefficient code and attacks by malicious actors. At
+                        SOLDBI, we are chronicling the progress of the Ethereum
+                        space. Will it become an essential infrastructure for a
+                        more open, freer internet? Or will it be surpassed by
+                        other smart contracts (or traditional) platforms vying
+                        for mind and market share? </a> </p>
+                  </div>
+                  <div class="r-detalis">
+                    <ul>
+                      <li> <a href="#"> <span>624</span> <span><i class="zmdi zmdi-eye"></i></span>
+                        </a> </li>
+                      <li> <a href="#"> <span>1</span> <span><i class="zmdi zmdi-comment"></i></span>
+                        </a> </li>
+                      <li> <a href="#"> <span>61</span> <span><i class="zmdi zmdi-favorite"></i></span>
+                        </a> </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pen"> <a href="#" class="pen-img"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqup4BYT-CIvRvtkG-fjhnHpxXujQTiRJcngYAT5ZxeKUPg-2w_8KEBh5sf3mBbrJBt-c&amp;usqp=CAU">
+              </a>
+              <div class="pen-inf">
+                <h3> <a href="#"> Ripple 101 </a> </h3>
+                <div class="detalis">
+                  <div class="l-detalis">
+                    <p> <a href="#"> Founded in 2012 as OpenCoin, Ripple Labs
+                        is the software company developing the XRP
+                        cryptocurrency and distributed ledger technology
+                        alongside a suite of payment protocols for streamlined
+                        cross-border settlement for financial institutions. XRP
+                        functions as the bridge currency underlying Ripple’s
+                        liquidity and exchange product, xRapid, which provides
+                        financial institutions a medium for global value
+                        transfer between various fiat currencies. XRP Ledger is
+                        the open-source DLT that provides cryptographically
+                        secure, verifiable settlement of the XRP currency. XRP
+                        Ledger is not part of Ripple’s suite of proprietary
+                        software products, as it is accessible and open to all.
+                        At Soldit, we are chronicling the progress of Ripple
+                        Labs (and XRP) as it competes with cryptocurrency
+                        protocols and traditional fintech platforms alike. </a>
+                    </p>
+                  </div>
+                  <div class="r-detalis">
+                    <ul>
+                      <li> <a href="#"> <span>463</span> <span><i class="zmdi zmdi-eye"></i></span>
+                        </a> </li>
+                      <li> <a href="#"> <span>2</span> <span><i class="zmdi zmdi-comment"></i></span>
+                        </a> </li>
+                      <li> <a href="#"> <span>42</span> <span><i class="zmdi zmdi-favorite"></i></span>
+                        </a> </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pens-pen">
+            <div class="pen"> <a href="#" class="pen-img"> <img src="https://www.kindpng.com/picc/m/287-2879637_bitcoin-wallet-icon-litecoin-logo-hd-png-download.png">
+              </a>
+              <div class="pen-inf">
+                <h3> <a href="#"> Litecoin 101</a> </h3>
+                <div class="detalis">
+                  <div class="l-detalis">
+                    <p> <a href="#"> The Litecoin cryptocurrency is a fork of
+                        the Bitcoin codebase that was positioned as “a silver to
+                        Bitcoin’s gold.” It was created by former Google and
+                        Coinbase engineer Charlie Lee in 2011. While similar to
+                        Bitcoin in terms of tech and monetary policy, even
+                        featuring its own periodic halving of its supply
+                        schedule, Litecoin features some core changes such as
+                        block times that are four times longer and a supply cap
+                        that is four times as large compared with BTC. One key
+                        technical difference Litecoin has with Bitcoin is its
+                        mining algorithm, Scrypt, which makes it easier for
+                        users to generate hashes with commonly available
+                        hardware and participate in the mining process. In June
+                        2017, Charle Lee left his position at Coinbase to commit
+                        to Litecoin full time and is currently head of the
+                        Litecoin Foundation, which stewards and finances
+                        Litecoin ecosystem development. </a> </p>
+                  </div>
+                  <div class="r-detalis">
+                    <ul>
+                      <li> <a href="#"> <span>785</span> <span><i class="zmdi zmdi-eye"></i></span>
+                        </a> </li>
+                      <li> <a href="#"> <span>12</span> <span><i class="zmdi zmdi-comment"></i></span>
+                        </a> </li>
+                      <li> <a href="#"> <span>94</span> <span><i class="zmdi zmdi-favorite"></i></span>
+                        </a> </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pen"> <a href="#" class="pen-img"> <img src="https://i.pinimg.com/474x/58/47/37/5847375fa61d23e8251e00c8da916ac4.jpg">
+              </a>
+              <div class="pen-inf">
+                <h3> <a href="#"> Altcoin 101</a> </h3>
+                <div class="detalis">
+                  <div class="l-detalis">
+                    <p> <a href="#"> The term “altcoin” refers to any
+                        cryptocurrency that has launched since Bitcoin (BTC). In
+                        the early days of Bitcoin, developers forked the
+                        open-source code to create new currencies. Over time,
+                        these Bitcoin alternatives began to diverge further from
+                        their progenitor with different supply schedules and
+                        privacy features. These include Litecoin (LTC) and Zcash
+                        (ZEC), among others. Along with altcoins came a plethora
+                        of Bitcoin–altcoin trading pairs that produced a surge
+                        in market activity, with traders leveraging the
+                        volatility of these crypto assets for high-risk rewards.
+                        The rise of altcoins and their respective blockchain
+                        networks marks an era of experimentation and maturation
+                        within the crypto industry, as a wider range of use
+                        cases of the technology have become possible. </a> </p>
+                  </div>
+                  <div class="r-detalis">
+                    <ul>
+                      <li> <a href="#"> <span>432</span> <span><i class="zmdi zmdi-eye"></i></span>
+                        </a> </li>
+                      <li> <a href="#"> <span>0</span> <span><i class="zmdi zmdi-comment"></i></span>
+                        </a> </li>
+                      <li> <a href="#"> <span>0</span> <span><i class="zmdi zmdi-favorite"></i></span>
+                        </a> </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pen"> <a href="#" class="pen-img"> <img src="https://media.istockphoto.com/vectors/blockchain-icon-concept-on-white-background-cryptocurrency-data-sign-vector-id979321630?k=20&amp;m=979321630&amp;s=612x612&amp;w=0&amp;h=KAuBn3cazFVmhzghdMXuSOajrPIOc97aQpN1DaUTshA=">
+              </a>
+              <div class="pen-inf">
+                <h3> <a href="#"> Blockchain 101</a> </h3>
+                <div class="detalis">
+                  <div class="l-detalis">
+                    <p> <a href="#"> Blockchains are the critical
+                        infrastructure underlying cryptocurrencies. The common
+                        feature of these distributed ledgers is the sequential
+                        updating of a cryptographically secure, verifiable
+                        transaction record among a network of peers all
+                        operating under a certain set of rules enforced through
+                        the software itself. This record is owned and operated
+                        in common by anyone anywhere. While research in shared
+                        ledger technology goes back decades, the arrival of the
+                        Bitcoin blockchain introduced the first distributed
+                        ledger technology that was thoroughly decentralized and
+                        resistant to censorship, seizure and collusion.
+                        Blockchain technology, in its various manifestations
+                        including the Ethereum blockchain and others, is
+                        ultimately a global consensus system — i.e., it allows
+                        people to coordinate and cooperate around a neutral
+                        source of information without trusting each other or a
+                        central administrator. The use cases are wide-ranging,
+                        from finance and energy trading to supply chain
+                        management. At SOLDBI, we are chronicling the evolving
+                        blockchain industry. Is it revolutionary or overhyped?
+                        Or both? Will it become the solution to securing trust
+                        in finance and global trade? What will be the rate of
+                        blockchain transactions in the coming years? </a> </p>
+                  </div>
+                  <div class="r-detalis">
+                    <ul>
+                      <li> <a href="#"> <span>74</span> <span><i class="zmdi zmdi-eye"></i></span>
+                        </a> </li>
+                      <li> <a href="#"> <span>1</span> <span><i class="zmdi zmdi-comment"></i></span>
+                        </a> </li>
+                      <li> <a href="#"> <span>22</span> <span><i class="zmdi zmdi-favorite"></i></span>
+                        </a> </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Last Footer -->
+    <footer class="foot">
+      <div class="container-md">
+        <div class="f-left">
+          <ul>
+            <li class="ft">
+              <h3>SOLD<span style="color: #fffb00;">BI</span></h3>
+            </li>
+            <li> <a href="#"> Exchange </a> </li>
+            <li> <a href="#"> Withdraw </a> </li>
+            <li> <a href="#"> Track Crypto</a></li>
+            <li> <a href="#"> Line Graphs</a></li>
+          </ul>
+          <ul>
+            <li class="ft">
+              <h3>SOLD<span style="color: #fffb00;">BI</span></h3>
+            </li>
+            <li> <a href="#"> About </a> </li>
+            <li> <a href="#"> Contact </a> </li>
+            <li> <a href="#"> Blog </a> </li>
+            <li> <a href="#"> Referral Program </a> </li>
+            <li> <a href="#"> Refund Policy<br>
+              </a></li>
+          </ul>
+          <ul>
+            <li class="ft">
+              <h3>Social</h3>
+            </li>
+            <li> <a href="#"> Twitter </a> </li>
+            <li> <a href="#"> Facebook </a> </li>
+            <li> <a href="#"> Flickr </a> </li>
+            <li> <a href="#"> Instagram </a> </li>
+          </ul>
+        </div>
+        <div class="f-right">
+          <div class="f-copy">
+            <div class="f-logo"> <a href="#">
+                <p class="f-log">SOLD<span style="color: #fffb00;">BI</span></p>
+                <p class="copy-year">©2018SOLD<span style="color: #fffb00;">BI</span></p>
+              </a>
+              <p class="copy-year"><a href="#"><br>
+                </a><a href="#">The new level of currency</a></p>
+            </div>
+            <p><br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- partial -->
+    <script src="./script.js"></script>
+  </body>
+</html>
